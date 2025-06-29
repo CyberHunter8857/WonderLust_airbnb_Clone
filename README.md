@@ -41,7 +41,7 @@ AirBNB_Clone/
 ### Installation
 
 ```bash
-git clone https://github.com/your-username/airbnb-clone.git
+git clone https://github.com/CyberHunter8857/WonderLust_airbnb_Clone.git
 cd airbnb-clone
 npm install
 ```
@@ -62,9 +62,6 @@ You may use a `.env` file to configure:
 MONGO_URL=mongodb://127.0.0.1:27017/your-database-name
 ```
 
-## 📸 Screenshots
-
-(Add screenshots of the homepage, listing view, create/edit form, etc.)
 
 ## 🤝 Contributions
 
