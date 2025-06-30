@@ -76,4 +76,4 @@ Pull requests are welcome. Feel free to fork the repo and improve it with new fe
 
 This project is licensed under the MIT License.
 
-Developed with ❤️ by Your Name
+Developed with ❤️ by Mayur Tamanke
