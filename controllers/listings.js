@@ -25,13 +25,17 @@ module.exports.showListing = async (req, res) => {
 };
 
 module.exports.createListing = async (req, res, next) => {
-  let result = listingSchema.validate(req.body);
-  console.log(req.user);
-  if (result.error) {
-    throw new ExpressError(400, result.error);
-  }
+  let url = req.file.path;
+  let filename = req.file.filename;
+
+  // let result = listingSchema.validate(req.body);
+  // console.log(req.user);
+  // if (result.error) {
+  //   throw new ExpressError(400, result.error);
+  // }
   const newListing = new Listing(req.body.listing);
   newListing.owner = req.user._id;
+  newListing.image = {url, filename};
   await newListing.save();
 
   req.flash("success", "New Listing Created!");
