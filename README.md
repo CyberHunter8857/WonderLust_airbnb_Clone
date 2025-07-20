@@ -48,6 +48,12 @@ WonderLust is a full-stack clone of Airbnb focused on creating, displaying, and 
 
 ---
 
+## 🌍 Live Demo
+
+[Click here to view the live project](https://wonderlust-airbnb-clone-6u5p.onrender.com/)
+
+---
+
 ## ✨ Features
 
 - 🔐 User authentication (Passport.js)
